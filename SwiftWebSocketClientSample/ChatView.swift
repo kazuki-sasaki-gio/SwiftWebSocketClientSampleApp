@@ -13,9 +13,7 @@ struct ChatView: View {
 
     init() {
         client = WebSocketClient()
-        client.setup(url: "wss://n4rcanuu0h.execute-api.ap-northeast-1.amazonaws.com/dev")
-        
-                        // wss://n4rcanuu0h.execute-api.ap-northeast-1.amazonaws.com/dev
+        client.setup(url: "")
     }
 
     var body: some View {
